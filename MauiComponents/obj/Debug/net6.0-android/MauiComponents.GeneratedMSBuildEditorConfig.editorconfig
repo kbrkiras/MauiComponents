@@ -1,0 +1,58 @@
+is_global = true
+build_property.TargetFramework = net6.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MauiComponents
+build_property.ProjectDir = F:\Projects\MauiComponents\MauiComponents\
+
+[F:/Projects/MauiComponents/MauiComponents/Components/Bars/NavBar.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiComponents.Components.Bars.NavBar.xaml
+build_metadata.AdditionalFiles.TargetPath = Components\Bars\NavBar.xaml
+build_metadata.AdditionalFiles.RelativePath = Components\Bars\NavBar.xaml
+
+[F:/Projects/MauiComponents/MauiComponents/Components/Dropboxes/Dropbox.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiComponents.Components.Dropboxes.Dropbox.xaml
+build_metadata.AdditionalFiles.TargetPath = Components\Dropboxes\Dropbox.xaml
+build_metadata.AdditionalFiles.RelativePath = Components\Dropboxes\Dropbox.xaml
+
+[F:/Projects/MauiComponents/MauiComponents/Components/Inputs/BarcodeInput.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiComponents.Components.Inputs.BarcodeInput.xaml
+build_metadata.AdditionalFiles.TargetPath = Components\Inputs\BarcodeInput.xaml
+build_metadata.AdditionalFiles.RelativePath = Components\Inputs\BarcodeInput.xaml
+
+[F:/Projects/MauiComponents/MauiComponents/Components/Inputs/NumericInput.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiComponents.Components.Inputs.NumericInput.xaml
+build_metadata.AdditionalFiles.TargetPath = Components\Inputs\NumericInput.xaml
+build_metadata.AdditionalFiles.RelativePath = Components\Inputs\NumericInput.xaml
+
+[F:/Projects/MauiComponents/MauiComponents/Components/Inputs/TextInput.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiComponents.Components.Inputs.TextInput.xaml
+build_metadata.AdditionalFiles.TargetPath = Components\Inputs\TextInput.xaml
+build_metadata.AdditionalFiles.RelativePath = Components\Inputs\TextInput.xaml
+
+[F:/Projects/MauiComponents/MauiComponents/Components/Lists/StockList.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiComponents.Components.Lists.StockList.xaml
+build_metadata.AdditionalFiles.TargetPath = Components\Lists\StockList.xaml
+build_metadata.AdditionalFiles.RelativePath = Components\Lists\StockList.xaml
+
+[F:/Projects/MauiComponents/MauiComponents/Components/Menus/Accordion.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiComponents.Components.Menus.Accordion.xaml
+build_metadata.AdditionalFiles.TargetPath = Components\Menus\Accordion.xaml
+build_metadata.AdditionalFiles.RelativePath = Components\Menus\Accordion.xaml
+
+[F:/Projects/MauiComponents/MauiComponents/Components/Menus/FlyoutMenu.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiComponents.Components.Menus.FlyoutMenu.xaml
+build_metadata.AdditionalFiles.TargetPath = Components\Menus\FlyoutMenu.xaml
+build_metadata.AdditionalFiles.RelativePath = Components\Menus\FlyoutMenu.xaml

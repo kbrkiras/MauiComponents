@@ -1,0 +1,13 @@
+F:\Projects\MauiComponents\MauiComponents\bin\Debug\net6.0\MauiComponents.deps.json
+F:\Projects\MauiComponents\MauiComponents\bin\Debug\net6.0\MauiComponents.dll
+F:\Projects\MauiComponents\MauiComponents\bin\Debug\net6.0\MauiComponents.pdb
+F:\Projects\MauiComponents\MauiComponents\obj\Debug\net6.0\MauiComponents.csproj.AssemblyReference.cache
+F:\Projects\MauiComponents\MauiComponents\obj\Debug\net6.0\MauiComponents.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\MauiComponents\MauiComponents\obj\Debug\net6.0\MauiComponents.AssemblyInfoInputs.cache
+F:\Projects\MauiComponents\MauiComponents\obj\Debug\net6.0\MauiComponents.AssemblyInfo.cs
+F:\Projects\MauiComponents\MauiComponents\obj\Debug\net6.0\MauiComponents.csproj.CoreCompileInputs.cache
+F:\Projects\MauiComponents\MauiComponents\obj\Debug\net6.0\XamlC.stamp
+F:\Projects\MauiComponents\MauiComponents\obj\Debug\net6.0\MauiComponents.dll
+F:\Projects\MauiComponents\MauiComponents\obj\Debug\net6.0\refint\MauiComponents.dll
+F:\Projects\MauiComponents\MauiComponents\obj\Debug\net6.0\MauiComponents.pdb
+F:\Projects\MauiComponents\MauiComponents\obj\Debug\net6.0\ref\MauiComponents.dll

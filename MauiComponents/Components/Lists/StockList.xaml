@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ListView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiComponents.Components.Lists.StockList"
+          HasUnevenRows="True"
+             >
+    <ListView.ItemTemplate>
+        <DataTemplate>
+            <ViewCell>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <SwipeView>
+                        <SwipeView.RightItems>
+                            <SwipeItems>
+                                <SwipeItem IconImageSource="duzenle.png" BackgroundColor="Orange" Text="Düzenle"  Invoked="OnEditInvoked" />
+                                <SwipeItem IconImageSource="incele.png" BackgroundColor="LightSlateGray" Text="İncele" Invoked="OnSurveyInvoked" />
+                            </SwipeItems>
+                        </SwipeView.RightItems>
+                        <Frame CornerRadius="5"  Padding="0" HasShadow="True" Margin="0">
+                            <Grid BackgroundColor="White">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="7"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid Grid.Column="0">
+                                    <Frame   BackgroundColor="{DynamicResource Primary}">
+                                    </Frame>
+                                </Grid>
+                                <Grid Padding="7,0" RowSpacing="0" Grid.Column="1">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="25"/>
+                                        <RowDefinition  Height="25"/>
+                                        <RowDefinition  Height="25"/>
+                                    </Grid.RowDefinitions>
+                                    <AbsoluteLayout x:Name="group_216"
+					 AbsoluteLayout.LayoutBounds="18,158,AutoSize,AutoSize"
+					 >
+
+                                        <ImageButton x:Name="path_58"
+						Source="path_58.png"
+						AbsoluteLayout.LayoutBounds="-12,-12,402,100" />
+                                        <StackLayout>
+                                            <Label x:Name="lblStockName"
+						FontFamily="Poppins"
+						FontAttributes="Bold"
+						FontSize="12"
+						TextColor="#141414"
+						AbsoluteLayout.LayoutBounds="20,6,AutoSize,AutoSize"
+						Text="{Binding Stock_Name}"
+					 />
+                                            <Label x:Name="lblStockCode"
+						FontFamily="Poppins"
+						FontSize="12"
+						TextColor="#141414"
+						AbsoluteLayout.LayoutBounds="20,28,AutoSize,AutoSize"
+						Text="{Binding Stock_Code}"
+					 />
+                                            <Label x:Name="lblStockCategoryName"
+						FontFamily="Poppins"
+						FontSize="12"
+						TextColor="#141414"
+						AbsoluteLayout.LayoutBounds="20,50,AutoSize,AutoSize"
+						Text="{Binding Stock_Category_Name}"
+					 />
+                                        </StackLayout>
+
+
+                                    </AbsoluteLayout>
+                                </Grid>
+                            </Grid>
+                        </Frame>
+                    </SwipeView>
+                </Grid>
+
+            </ViewCell>
+        </DataTemplate>
+
+    </ListView.ItemTemplate>
+</ListView>

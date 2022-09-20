@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Grid xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiComponents.Components.Inputs.NumericInput"
+      >
+    <Grid.RowDefinitions>
+        <RowDefinition></RowDefinition>
+    </Grid.RowDefinitions>
+    <Frame  VerticalOptions="Center" CornerRadius="5" Margin="10,0,10,0" BorderColor="{Binding FrameBorderColor}" BackgroundColor="{Binding FrameBackgroundColor}" Padding="6,0" HasShadow="True" Grid.Column="0">
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="20"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <ImageButton x:Name="minusButton" Clicked="MinusOnClick" IsVisible="{Binding ShowIconWhenEmpty}" Source="negativebutton.png"/>
+            </Grid>
+
+            <Grid ColumnSpacing="0" RowSpacing="0" Grid.Column="1">
+                <Entry  x:Name="entry" 
+                TextChanged="OnTextChanged"
+                IsSpellCheckEnabled="{Binding IsSpellCheckEnabled}" 
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="{Binding VerticalTextAlignment}" 
+                VerticalOptions="{Binding VerticalOptions}" 
+                FontFamily="{Binding FontFamily}" 
+                FontSize="{Binding FontSize}" 
+                TextColor="{Binding TextColor}" 
+                PlaceholderColor="{Binding PlaceholderColor}" 
+                Placeholder="{Binding Placeholder}" 
+                Keyboard="Numeric"
+                Text="0"
+                        ></Entry>
+
+            </Grid>
+            <Grid Grid.Column="2">
+                <ImageButton x:Name="plusButton" Clicked="PlusOnClick" IsVisible="{Binding ShowIconWhenEmpty}" Source="plusbutton.png"/>
+            </Grid>
+
+
+        </Grid>
+    </Frame>
+
+</Grid>

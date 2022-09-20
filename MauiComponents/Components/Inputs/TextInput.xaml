@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Grid xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiComponents.Components.Inputs.TextInput"
+      xmlns:components="clr-namespace:MauiComponents.Components.Inputs"
+      x:Name="gridEntry"
+      >
+    <Grid.RowDefinitions>
+        <RowDefinition></RowDefinition>
+    </Grid.RowDefinitions>
+    <Frame  VerticalOptions="Center" CornerRadius="5" Margin="10,0,10,0" BorderColor="{Binding FrameBorderColor}" BackgroundColor="{Binding FrameBackgroundColor}" Padding="6,0" HasShadow="True" Grid.Column="0">
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="20"/>
+            </Grid.ColumnDefinitions>
+            <Grid ColumnSpacing="0" RowSpacing="0" Grid.Column="0">
+                <components:BorderlessEntry  x:Name="entry" 
+                IsPassword="{Binding IsPassword}"
+                TextChanged="OnTextChanged"
+                IsSpellCheckEnabled="{Binding IsSpellCheckEnabled}" 
+                VerticalTextAlignment="{Binding VerticalTextAlignment}" 
+                VerticalOptions="{Binding VerticalOptions}" 
+                FontFamily="{Binding FontFamily}" 
+                FontSize="{Binding FontSize}" 
+                TextColor="{Binding TextColor}" 
+                PlaceholderColor="{Binding PlaceholderColor}" 
+                Placeholder="{Binding Placeholder}" 
+                Keyboard="{Binding Keyboard}"
+                Text="{Binding Text}"
+                        ></components:BorderlessEntry>
+
+            </Grid>
+            <Grid Grid.Column="1">
+                <ImageButton x:Name="imgEntry" Clicked="ImgOnClick" IsVisible="{Binding ShowIconWhenEmpty}" Source="{Binding Icon}"/>
+            </Grid>
+
+
+        </Grid>
+    </Frame>
+
+</Grid>
