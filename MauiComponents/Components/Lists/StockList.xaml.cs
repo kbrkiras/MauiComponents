@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Components;
 using MauiComponents.Models;
 
-namespace MauiComponents.Components.Lists;
+namespace MauiComponents;
 
 public partial class StockList : ListView
 {

@@ -1,4 +1,4 @@
-namespace MauiComponents.Components.Inputs;
+namespace MauiComponents;
 
 public partial class NumericInput : Grid
 {

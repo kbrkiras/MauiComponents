@@ -1,4 +1,4 @@
-namespace MauiComponents.Components.Menus;
+namespace MauiComponents;
 
 [XamlCompilation(XamlCompilationOptions.Compile)]
 public partial class Accordion : ContentView

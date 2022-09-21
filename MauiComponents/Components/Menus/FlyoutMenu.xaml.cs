@@ -1,6 +1,6 @@
 using MauiComponents.Models;
 
-namespace MauiComponents.Components.Menus;
+namespace MauiComponents;
 
 public partial class FlyoutMenu : ContentPage
 {

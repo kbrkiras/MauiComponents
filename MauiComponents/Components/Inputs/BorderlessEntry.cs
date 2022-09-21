@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MauiComponents.Components.Inputs
+namespace MauiComponents
 {
     public class BorderlessEntry : Entry
     {

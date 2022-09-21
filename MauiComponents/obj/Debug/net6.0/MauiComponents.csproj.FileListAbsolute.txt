@@ -11,3 +11,16 @@ F:\Projects\MauiComponents\MauiComponents\obj\Debug\net6.0\MauiComponents.dll
 F:\Projects\MauiComponents\MauiComponents\obj\Debug\net6.0\refint\MauiComponents.dll
 F:\Projects\MauiComponents\MauiComponents\obj\Debug\net6.0\MauiComponents.pdb
 F:\Projects\MauiComponents\MauiComponents\obj\Debug\net6.0\ref\MauiComponents.dll
+G:\MAUI\MauiComponents\bin\Debug\net6.0\MauiComponents.deps.json
+G:\MAUI\MauiComponents\bin\Debug\net6.0\MauiComponents.dll
+G:\MAUI\MauiComponents\bin\Debug\net6.0\MauiComponents.pdb
+G:\MAUI\MauiComponents\obj\Debug\net6.0\MauiComponents.csproj.AssemblyReference.cache
+G:\MAUI\MauiComponents\obj\Debug\net6.0\MauiComponents.GeneratedMSBuildEditorConfig.editorconfig
+G:\MAUI\MauiComponents\obj\Debug\net6.0\MauiComponents.AssemblyInfoInputs.cache
+G:\MAUI\MauiComponents\obj\Debug\net6.0\MauiComponents.AssemblyInfo.cs
+G:\MAUI\MauiComponents\obj\Debug\net6.0\MauiComponents.csproj.CoreCompileInputs.cache
+G:\MAUI\MauiComponents\obj\Debug\net6.0\XamlC.stamp
+G:\MAUI\MauiComponents\obj\Debug\net6.0\MauiComponents.dll
+G:\MAUI\MauiComponents\obj\Debug\net6.0\refint\MauiComponents.dll
+G:\MAUI\MauiComponents\obj\Debug\net6.0\MauiComponents.pdb
+G:\MAUI\MauiComponents\obj\Debug\net6.0\ref\MauiComponents.dll

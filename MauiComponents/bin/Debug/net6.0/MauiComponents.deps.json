@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "MauiComponents/1.0.0": {
+      "MauiComponents/1.0.2": {
         "dependencies": {
           "CommunityToolkit.Maui": "1.2.0",
           "Microsoft.AspNetCore.Components": "6.0.8",
@@ -902,7 +902,7 @@
     }
   },
   "libraries": {
-    "MauiComponents/1.0.0": {
+    "MauiComponents/1.0.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>KbrKiras.MauiComponents</id>
+    <version>1.0.1</version>
+    <title>MAUIComponents</title>
+    <authors>Kubra Kıras</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/kbrkiras/MauiComponents</projectUrl>
+    <description>Easily use components in maui applications with this control</description>
+    <tags>Maui,Components,Maui Input</tags>
+    <repository url="https://github.com/kbrkiras/MauiComponents" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="CommunityToolkit.Maui" version="1.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Components" version="6.0.8" exclude="Build,Analyzers" />
+        <dependency id="System.ObjectModel" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="Xam.Plugins.Settings" version="3.1.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0-ios15.4">
+        <dependency id="CommunityToolkit.Maui" version="1.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Components" version="6.0.8" exclude="Build,Analyzers" />
+        <dependency id="System.ObjectModel" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.InteropServices.NFloat.Internal" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="Xam.Plugins.Settings" version="3.1.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0-maccatalyst15.4">
+        <dependency id="CommunityToolkit.Maui" version="1.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Components" version="6.0.8" exclude="Build,Analyzers" />
+        <dependency id="System.ObjectModel" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.InteropServices.NFloat.Internal" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="Xam.Plugins.Settings" version="3.1.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="G:\MAUI\MauiComponents\bin\Debug\net6.0\MauiComponents.dll" target="lib\net6.0\MauiComponents.dll" />
+    <file src="G:\MAUI\MauiComponents\bin\Debug\net6.0-ios\MauiComponents.dll" target="lib\net6.0-ios15.4\MauiComponents.dll" />
+    <file src="G:\MAUI\MauiComponents\bin\Debug\net6.0-maccatalyst\MauiComponents.dll" target="lib\net6.0-maccatalyst15.4\MauiComponents.dll" />
+    <file src="G:\MAUI\README.md" target="\README.md" />
+  </files>
+</package>

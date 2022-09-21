@@ -1,6 +1,6 @@
 using System.ComponentModel;
 
-namespace MauiComponents.Components.Inputs;
+namespace MauiComponents;
 
 public partial class BarcodeInput : Grid
 {

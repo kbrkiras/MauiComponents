@@ -2,7 +2,7 @@
 
 <Grid xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiComponents.Components.Inputs.BarcodeInput">
+             x:Class="MauiComponents.BarcodeInput">
     <Grid.ColumnDefinitions>
         <ColumnDefinition Width="*"/>
         <ColumnDefinition Width="50"/>

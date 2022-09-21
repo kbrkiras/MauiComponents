@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Components;
 
-namespace MauiComponents.Components.Dropboxes;
+namespace MauiComponents;
 
 public partial class Dropbox : Grid
 {

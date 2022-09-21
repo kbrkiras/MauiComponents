@@ -1,7 +1,7 @@
 using System.ComponentModel;
-using MauiComponents.Components.Inputs;
+using MauiComponents;
 
-namespace MauiComponents.Components.Bars;
+namespace MauiComponents;
 
 public partial class NavBar : Grid
 {

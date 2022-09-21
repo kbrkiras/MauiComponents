@@ -1,6 +1,6 @@
 using MauiComponents.Models;
 
-namespace MauiComponents.Components.Inputs;
+namespace MauiComponents;
 
 public partial class TextInput : Grid
 {
